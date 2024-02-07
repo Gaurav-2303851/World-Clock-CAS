@@ -18,13 +18,15 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(WorldClockcass.ExtentReportManager.class)
 public class worldclock {
 	public static WebDriver driver;
 	public static String url="https://be.cognizant.com/";
 	public static String browser="chrome";
 	public static Pagemodelclock wc;
+	public static String webtime;
 	pagemodelapps one;
 
 	@BeforeClass
@@ -61,7 +63,7 @@ public class worldclock {
 		SimpleDateFormat timeformat=new SimpleDateFormat("h:mma");
 		String formatedtime=timeformat.format(currentTime); 
 		System.out.println(formatedtime.toLowerCase());
-		String webtime=wc.checkindiatime();
+		 webtime=wc.checkindiatime();
 		System.out.println(webtime.toLowerCase());
 		Assert.assertEquals(webtime.toLowerCase(), formatedtime.toLowerCase());
 	}
@@ -149,6 +151,7 @@ public class worldclock {
 		System.out.println(wc.checknytime());
 		System.out.println(time_NY);
 		Assert.assertEquals(time_NY,wc.checknytime());
+		
 	}
 
 	@Test (priority = 11)
@@ -171,9 +174,10 @@ public class worldclock {
 		        int hoursDifference = (bangloreTimeZone.getRawOffset()-newYorkTimeZone.getRawOffset()) / (60 * 60 * 1000);
 		        int minutesDifference = (bangloreTimeZone.getRawOffset()-newYorkTimeZone.getRawOffset()) / (60 * 1000) % 60;
 		        String NYbanggap = hoursDifference + "h " + minutesDifference + "m "+"behind";
-				System.out.println(NYbanggap);
+				System.out.println(NYbanggap);	
 				System.out.println(wc.checknyindiagaptime());
 				Assert.assertEquals(NYbanggap, wc.checknyindiagaptime());
+				TimeZone.setDefault(TimeZone.getTimeZone("Asia/Kolkata"));
 	}
 
 //Apps
@@ -223,6 +227,10 @@ public class worldclock {
 		li.get(n).click();
 		break;
 		}
+	}
+	@Test(priority=16)
+	public void WriteData() {
+		ExcelUtils.writeExcel();
 	}
 	//close browser
 

@@ -6,10 +6,23 @@
       <class name="WorldClockcass.worldclock">
         <methods>
           <include name="close"/>
+          <include name="Bangalore_Date"/>
           <include name="Viewapps"/>
-          <include name="openpage"/>
-          <include name="Appsalphabet"/>
+          <include name="BangaloreWatch_Title"/>
+          <include name="NY_Timegap"/>
+          <include name="London_Time"/>
+          <include name="Test_WorldClock_Title"/>
           <include name="Randomalphabet"/>
+          <include name="WriteData"/>
+          <include name="NY_Date"/>
+          <include name="LondonWatch_Tittle"/>
+          <include name="NY_Watchtittle"/>
+          <include name="openpage"/>
+          <include name="NY_Time"/>
+          <include name="Appsalphabet"/>
+          <include name="London_Date"/>
+          <include name="London_Timegap"/>
+          <include name="Bangalore_Time"/>
         </methods>
       </class> <!-- WorldClockcass.worldclock -->
     </classes>
