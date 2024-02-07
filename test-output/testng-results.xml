@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T00:38:37 EST" name="Default suite" finished-at="2024-02-07T00:39:10 EST" duration-ms="32230">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T00:38:37 EST" name="Default test" finished-at="2024-02-07T00:39:10 EST" duration-ms="32230">
+      <class name="WorldClockcass.worldclock">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:37 EST" name="openpage" finished-at="2024-02-07T00:38:56 EST" duration-ms="18673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="Test_WorldClock_Title()[pri:1, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:56 EST" name="Test_WorldClock_Title" finished-at="2024-02-07T00:38:57 EST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_WorldClock_Title -->
+        <test-method signature="BangaloreWatch_Title()[pri:2, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="BangaloreWatch_Title" finished-at="2024-02-07T00:38:57 EST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BangaloreWatch_Title -->
+        <test-method signature="Bangalore_Time()[pri:3, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="Bangalore_Time" finished-at="2024-02-07T00:38:57 EST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bangalore_Time -->
+        <test-method signature="Bangalore_Date()[pri:4, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="Bangalore_Date" finished-at="2024-02-07T00:38:57 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bangalore_Date -->
+        <test-method signature="LondonWatch_Tittle()[pri:5, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="LondonWatch_Tittle" finished-at="2024-02-07T00:38:57 EST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LondonWatch_Tittle -->
+        <test-method signature="London_Time()[pri:6, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="London_Time" finished-at="2024-02-07T00:38:57 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- London_Time -->
+        <test-method signature="London_Date()[pri:7, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="London_Date" finished-at="2024-02-07T00:38:57 EST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- London_Date -->
+        <test-method signature="London_Timegap()[pri:8, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:57 EST" name="London_Timegap" finished-at="2024-02-07T00:38:58 EST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- London_Timegap -->
+        <test-method signature="NY_Watchtittle()[pri:9, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:58 EST" name="NY_Watchtittle" finished-at="2024-02-07T00:38:58 EST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NY_Watchtittle -->
+        <test-method signature="NY_Time()[pri:10, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:58 EST" name="NY_Time" finished-at="2024-02-07T00:38:58 EST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NY_Time -->
+        <test-method signature="NY_Date()[pri:11, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:58 EST" name="NY_Date" finished-at="2024-02-07T00:38:58 EST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NY_Date -->
+        <test-method signature="NY_Timegap()[pri:12, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:58 EST" name="NY_Timegap" finished-at="2024-02-07T00:38:58 EST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NY_Timegap -->
+        <test-method signature="Viewapps()[pri:13, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:38:58 EST" name="Viewapps" finished-at="2024-02-07T00:39:06 EST" duration-ms="7579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Viewapps -->
+        <test-method signature="Appsalphabet()[pri:14, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:39:06 EST" name="Appsalphabet" finished-at="2024-02-07T00:39:08 EST" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appsalphabet -->
+        <test-method signature="Randomalphabet()[pri:15, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:39:08 EST" name="Randomalphabet" finished-at="2024-02-07T00:39:08 EST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Randomalphabet -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WorldClockcass.worldclock@5fe94a96]" started-at="2024-02-07T00:39:08 EST" name="close" finished-at="2024-02-07T00:39:10 EST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- WorldClockcass.worldclock -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
